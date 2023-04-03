@@ -8,7 +8,7 @@ FROM film;
 
 SELECT *
 FROM film
-WHERE lengh > 60 AND lenght < 75;
+WHERE length > 60 AND length < 75;
 
 --film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99 VE replacement_cost 12.99 VEYA 28.99 olma koşullarıyla sıralayınız.
 
@@ -26,4 +26,4 @@ WHERE first_name = 'Mary';
 
 SELECT *
 FROM film
-WHERE NOT lenght > 50 AND (rental_rate != 2.99 OR rental_rate != 4.99 );
+WHERE NOT length > 50 AND (rental_rate != 2.99 OR rental_rate != 4.99 );
